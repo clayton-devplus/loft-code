@@ -1,0 +1,38 @@
+# Ignorar pastas de build e publicação local
+**/bin
+**/obj
+**/publish
+
+# Ignorar configurações de IDE e arquivos temporários
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+docker/
+
+# Ignorar arquivos e diretórios de controle de versão
+.git
+.gitignore
+.gitattributes
+
+# Ignorar dependências e arquivos de cache locais
+.nuget/
+packages/
+*.nupkg
+*.snupkg
+
+# Ignorar arquivos temporários e de log
+*.log
+*.pdb
+*.mdf
+*.ldf
+
+# Ignorar arquivos de cache do Rider
+.idea/
+*.Rider*
+
+# Ignorar arquivos temporários do sistema operacional
+Thumbs.db
+.DS_Store

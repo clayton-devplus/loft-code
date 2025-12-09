@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Loft.Code.Domain\Loft.Code.Domain.csproj" />
+    <ProjectReference Include="..\Loft.Code.Infra.Postgres\Loft.Code.Infra.Postgres.csproj" />
+    <ProjectReference Include="..\Loft.Code.Application\Loft.Code.Application.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+@Loft.Code.Api_HostAddress = http://localhost:5007
+
+GET {{Loft.Code.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
